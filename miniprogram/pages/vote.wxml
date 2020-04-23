@@ -1,0 +1,6 @@
+  <swiper >
+      <swiper-item wx:for="{{imglist}}" wx:key="unique">
+        <image  src="{{item.fileid}}"  bindtap="vote" data-fileid="{{item.fileid}}"/>
+        <text class="number">{{item.vote}}</text>
+      </swiper-item>
+  </swiper> 
